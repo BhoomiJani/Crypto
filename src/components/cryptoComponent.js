@@ -1,9 +1,8 @@
 import { useSelector } from "react-redux";
 
-
-const CryptoComponent = () => {
+// component for mapping the records from store
+const CryptoComponent = () => { 
     const appStoredData = useSelector((state) => state.data.data);
-    console.log("data<><", appStoredData);
 
     const rec = (item) => {
         return (

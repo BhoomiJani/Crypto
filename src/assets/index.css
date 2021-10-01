@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+}
+
+.record {
+    margin-top: 20px;
+}
+
+.headerName {
+    font-weight: bold;
+}
+
+.recordHeader p {
+    line-height: 3px;
+    margin-top: 5px;
+}
+
